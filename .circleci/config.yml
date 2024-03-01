@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: cimg/base:current
-    resource_class: undefined
+    resource_class: sachithsoorage/kube-circleci-runner
     steps:
       - run: echo "Hi I'm on a Container Runner!"
 workflows:
